@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-02-18 10:28:36 by Eclipse SUMO sumo Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="algorithms/envs/NCS/envs/large_grid_data/exp.net.xml"/>
+        <route-files value="algorithms/envs/NCS/envs/large_grid_data/exp_2.rou.xml"/>
+        <additional-files value="algorithms/envs/NCS/envs/large_grid_data/exp.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="algorithms/envs/NCS/envs/large_grid_dataatsc_large_grid_ma2c_nc_trip.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="600"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="64688"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="12"/>
+    </random_number>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>

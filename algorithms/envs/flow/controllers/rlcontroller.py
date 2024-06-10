@@ -1,0 +1,43 @@
+"""Contains the RLController class."""
+
+from algorithms.envs.flow.controllers.base_controller import BaseController
+
+
+class RLController(BaseController):
+    """RL Controller.
+
+    Vehicles with this class specified will be stored in the list of the RL IDs
+    in the Vehicles class.
+
+    Usage: See base class for usage example.
+
+    Attributes
+    ----------
+    veh_id : str
+        Vehicle ID for SUMO identification
+
+    Examples
+    --------
+    A set of vehicles can be instantiated as RL vehicles as follows:
+
+        >>> from algorithms.envs.flow.core.params import VehicleParams
+        >>> vehicles = VehicleParams()
+        >>> vehicles.add(acceleration_controller=(RLController, {}))
+
+    In order to collect the list of all RL vehicles in the next, run:
+
+        >>> from algorithms.envs.flow.envs import Env
+        >>> env = Env(...)
+        >>> rl_ids = env.k.vehicle.get_rl_ids()
+    """
+
+    def __init__(self, veh_id, car_following_params):
+        """Instantiate an RL Controller."""
+        BaseController.__init__(
+            self,
+            veh_id,
+            car_following_params)
+
+    def get_accel(self, env):
+        """Pass, as this is never called; required to override abstractmethod."""
+        pass

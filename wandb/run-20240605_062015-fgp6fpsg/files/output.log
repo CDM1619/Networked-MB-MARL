@@ -1,0 +1,4 @@
+
+len =  tensor(1., device='cuda:6')
+n_threads 128
+n_gpus 8

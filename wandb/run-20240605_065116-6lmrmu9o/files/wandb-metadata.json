@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.15.0-52-generic-x86_64-with-glibc2.17",
+    "python": "3.8.17",
+    "heartbeatAt": "2024-06-04T22:51:18.189552",
+    "startedAt": "2024-06-04T22:51:16.146235",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 8,
+    "cpu_count": 256,
+    "cuda": null,
+    "args": [
+        "--env",
+        "Large_city",
+        "--algo",
+        "DMPO"
+    ],
+    "state": "running",
+    "program": "launcher.py",
+    "codePath": "launcher.py",
+    "git": {
+        "remote": "https://github.com/CDM1619/Efficient_Network_MARL_NMI.git",
+        "commit": "a9c07233af8ab1da678f5b099340da444fe321f2"
+    },
+    "email": "chenhaojun001@gmail.com",
+    "root": "/home/chengdong/Efficient_Network_MARL_NMI",
+    "host": "user-NULL",
+    "username": "chengdong",
+    "executable": "/home/chengdong/anaconda3/envs/Pandemic_RealPower/bin/python"
+}

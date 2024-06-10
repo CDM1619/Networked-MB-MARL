@@ -1,0 +1,11 @@
+alg: "maac"
+
+alg_args:
+    "policy_lrate": 1.0e-4
+    "value_lrate": 1.0e-4
+    "attend_heads": 1
+    "norm_in": False
+    "soft": True
+    "reward_scale": 100
+    "gaussian_policy": True
+    "action_enforcebound": True

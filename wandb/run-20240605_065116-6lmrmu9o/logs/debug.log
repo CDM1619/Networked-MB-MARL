@@ -1,0 +1,32 @@
+2024-06-05 06:51:16,149 INFO    MainThread:1831279 [wandb_setup.py:_flush():71] Unhandled environment var: WANDB_TEAM
+2024-06-05 06:51:16,149 INFO    MainThread:1831279 [wandb_setup.py:_flush():71] setting env: {'api_key': '***REDACTED***'}
+2024-06-05 06:51:16,149 INFO    MainThread:1831279 [wandb_setup.py:_flush():71] setting login settings: {}
+2024-06-05 06:51:16,149 INFO    MainThread:1831279 [wandb_init.py:_log_setup():371] Logging user logs to /home/chengdong/Efficient_Network_MARL_NMI/wandb/run-20240605_065116-6lmrmu9o/logs/debug.log
+2024-06-05 06:51:16,149 INFO    MainThread:1831279 [wandb_init.py:_log_setup():372] Logging internal logs to /home/chengdong/Efficient_Network_MARL_NMI/wandb/run-20240605_065116-6lmrmu9o/logs/debug-internal.log
+2024-06-05 06:51:16,150 INFO    MainThread:1831279 [wandb_init.py:init():404] calling init triggers
+2024-06-05 06:51:16,151 INFO    MainThread:1831279 [wandb_init.py:init():409] wandb.init called with sweep_config: {}
+config: {'run_args': {'debug': False, 'device': 'cuda:6', 'init_checkpoint': None, 'log_period': 20, 'n_cpu': 0.25, 'n_gpu': 0, 'n_thread': 1, 'name': 'DMPOAgent_4705', 'parallel': False, 'profiling': False, 'radius_p': 1, 'radius_pi': 1, 'radius_v': 1, 'save_period': 1800, 'seed': 4705, 'start_step': 0, 'test': False}, 'algo_args': {'agent_args': {'action_space': Discrete(6), 'adj': array([[0., 1., 1., ..., 0., 0., 0.],
+       [1., 0., 1., ..., 0., 0., 0.],
+       [1., 1., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 1., 1.],
+       [0., 0., 0., ..., 1., 0., 1.],
+       [0., 0., 0., ..., 1., 1., 0.]]), 'advantage_norm': True, 'clip': 0.2, 'embedding_sizes': [17, 16, 8], 'entropy_coeff': 0.0, 'gamma': 0.99, 'hidden_state_dim': 8, 'lable_name': 'DMPO', 'lamda': 0.5, 'lr': 0.0005, 'lr_p': 0.0005, 'lr_v': 0.0005, 'n_agent': 436, 'n_minibatch': 1, 'n_update_pi': 10, 'n_update_v': 30, 'observation_dim': 17, 'p_args': {'edge_embed_dim': 12, 'edge_hidden_size': [32, 32], 'n_conv': 1, 'n_embedding': 4, 'node_embed_dim': 16, 'node_hidden_size': [32, 32], 'residual': True, 'reward_coeff': 10.0}, 'parallel': False, 'pi_args': {'activation': <class 'torch.nn.modules.activation.ReLU'>, 'network': <function MLP at 0x7fdfaf70bd30>, 'sizes': [-1, 128, 128, 6], 'squash': False}, 'radius_p': 1, 'radius_pi': 1, 'radius_v': 1, 'squeeze': False, 'target_kl': 0.01, 'use_gae_returns': False, 'use_reduced_v': True, 'use_rtg': True, 'v_args': {'activation': <class 'torch.nn.modules.activation.ReLU'>, 'network': <function MLP at 0x7fdfaf70bd30>, 'sizes': [-1, 128, 128, 1]}, 'v_coeff': 1.0, 'v_thres': 0.0}, 'env_fn': <function Large_city_Env at 0x7fdfaf70a4c0>, 'load_pretrained_model': False, 'max_episode_len': 500, 'model_based': True, 'model_batch_size': 64, 'model_buffer_size': 15, 'model_error_thres': 1e-05, 'model_length_schedule': None, 'model_prob': 0.5, 'model_traj_length': 15, 'model_update_length': 4, 'model_validate_interval': 10, 'n_inner_iter': 20, 'n_iter': 25000, 'n_model_update': 500, 'n_model_update_warmup': 1000, 'n_test': 1, 'n_traj': 512, 'n_warmup': 10, 'pretrained_model': 'checkpoints/standard_CACC_catchup_MB_DPPOAgent_30333/30000_6413.795132637025.pt', 'rollout_length': 500, 'test_interval': 10, 'test_length': 500}}
+2024-06-05 06:51:16,151 INFO    MainThread:1831279 [wandb_init.py:init():460] starting backend
+2024-06-05 06:51:16,151 INFO    MainThread:1831279 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-05 06:51:16,164 INFO    MainThread:1831279 [backend.py:ensure_launched():216] starting backend process...
+2024-06-05 06:51:16,175 INFO    MainThread:1831279 [backend.py:ensure_launched():221] started backend process with pid: 1831416
+2024-06-05 06:51:16,176 INFO    MainThread:1831279 [wandb_init.py:init():469] backend started and connected
+2024-06-05 06:51:16,183 INFO    MainThread:1831279 [wandb_init.py:init():533] updated telemetry
+2024-06-05 06:51:16,218 INFO    MainThread:1831279 [wandb_init.py:init():563] communicating current version
+2024-06-05 06:51:17,349 INFO    MainThread:1831279 [wandb_init.py:init():568] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-05 06:51:17,349 INFO    MainThread:1831279 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2024-06-05 06:51:18,157 INFO    MainThread:1831279 [wandb_init.py:init():606] starting run threads in backend
+2024-06-05 06:51:20,790 INFO    MainThread:1831279 [wandb_run.py:_console_start():1810] atexit reg
+2024-06-05 06:51:20,791 INFO    MainThread:1831279 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.REDIRECT
+2024-06-05 06:51:20,791 INFO    MainThread:1831279 [wandb_run.py:_redirect():1689] Redirecting console.
+2024-06-05 06:51:20,794 INFO    MainThread:1831279 [wandb_run.py:_redirect():1745] Redirects installed.
+2024-06-05 06:51:20,795 INFO    MainThread:1831279 [wandb_init.py:init():633] run started, returning control to user process
+2024-06-05 06:51:25,761 INFO    MainThread:1831279 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 255
+2024-06-05 06:51:25,762 INFO    MainThread:1831279 [wandb_run.py:_restore():1752] restore

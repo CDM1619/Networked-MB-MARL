@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-05 01:46:54 by Eclipse SUMO sumo Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="algorithms/envs/NCS/envs/large_grid_data/exp.net.xml"/>
+        <route-files value="algorithms/envs/NCS/envs/large_grid_data/exp_19.rou.xml"/>
+        <additional-files value="algorithms/envs/NCS/envs/large_grid_data/exp.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="600"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="8019"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="13"/>
+    </random_number>
+
+</configuration>

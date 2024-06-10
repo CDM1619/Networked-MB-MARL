@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <input>
+    <net-file value="newyork_map.net.xml" />
+    <route-files value="newyork_map.rou.xml" />
+  </input>
+  <time>
+    <begin value="0" />
+    <end value="10000" />
+  </time>
+</configuration>
