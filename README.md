@@ -109,7 +109,7 @@ Before running our code, you should log in to WandB locally. Please refer to htt
     * `case199_3min_final`
 5. Move data in `case141_3min_final` to folder `algorithms/envs/Real_Power_net/var_voltage_control/data/case141_3min_final`
 6. Move data in `case322_3min_final` to folder `algorithms/envs/Real_Power_net/var_voltage_control/data/case322_3min_final`
-7. Move data in `case33_3min_final` to folder `algorithms/envs/Real_Power_net/var_voltage_control/data/case199_3min_final`
+7. Move data (load_active.csv, load_reactive.csv, pv_active.csv, except for model.p) in `case33_3min_final` to folder `algorithms/envs/Real_Power_net/var_voltage_control/data/case199_3min_final`
 
 # Train and evaluate
 Train the agent (DPPO, CPPO, IC3Net, Our method) by:
