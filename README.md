@@ -213,3 +213,17 @@ and modifying the corresponding code:
 ```python
 sim_config = ps.sh.small_town_config    #  ['town_config':1w, 'above_medium_town_config':5000, "medium_town_config":2000,  'small_town_config':1000, 'tiny_town_config':500]
 ```
+
+
+# Reference
+Please cite the paper in the following format if you used this code during your research
+```python
+@article{ma2024efficient,
+  title={Efficient and scalable reinforcement learning for large-scale network control},
+  author={Ma, Chengdong and Li, Aming and Du, Yali and Dong, Hao and Yang, Yaodong},
+  journal={Nature Machine Intelligence},
+  pages={1--15},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+```
