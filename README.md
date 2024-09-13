@@ -1,4 +1,4 @@
-Official Implementation of Model Based Decentralized Policy Optimization
+Official Implementation of [Efficient and Scalable Reinforcement Learning for Large-scale Network Control](https://www.nature.com/articles/s42256-024-00879-7)
 
 # Algorithms
 1. Model-based Decentralized Policy Optimization, Our method
