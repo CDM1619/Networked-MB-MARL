@@ -10,7 +10,7 @@ import warnings
 import json
 import gym
 
-os.environ["WANDB_API_KEY"] = 'fd229d95dead638d9f0474fde2b1c27876cddacb'
+os.environ["WANDB_API_KEY"] = 'your wandb key'
 
 os.environ["WANDB_TEAM"] = ""
 
