@@ -14,9 +14,9 @@ def getArgs(radius_p, radius_v, radius_pi, env):
     alg_args.n_model_update = int(5e4)
     alg_args.n_model_update_warmup = int(5e4)
 
-    alg_args.n_warmup = 1
-    alg_args.n_model_update = int(5)
-    alg_args.n_model_update_warmup = int(2e1)
+    # alg_args.n_warmup = 1
+    # alg_args.n_model_update = int(5)
+    # alg_args.n_model_update_warmup = int(2e1)
 
 
     alg_args.n_test = 5
