@@ -81,7 +81,7 @@ def initArgs(run_args, env_train, env_test, input_arg):
         config = importlib.import_module(f"algorithms.config.{env_str}_{input_args.algo}")
 
     if input_arg.env in ['catchup', 'slowdown']:
-        run_args.radius_v = 4
+        run_args.radius_v = 2
         run_args.radius_pi = 1
         run_args.radius_p = 1
 
