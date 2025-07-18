@@ -87,8 +87,8 @@ def getArgs(radius_p, radius_v, radius_pi, env):
     p_args.residual = True
     p_args.edge_embed_dim = 12
     p_args.node_embed_dim = 8
-    p_args.edge_hidden_size = [16, 16]
-    p_args.node_hidden_size = [16, 16]
+    p_args.edge_hidden_size = [128, 128]
+    p_args.node_hidden_size = [128, 128]
     p_args.reward_coeff = 10.
     agent_args.p_args = p_args
 
