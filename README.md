@@ -164,27 +164,27 @@ test_actors_model = 'checkpoints/standard _xxx/Models/xxxbest_actor.pt'
 ```
 We also provide evaluation code. After replacing the corresponding actor model, please run the following command to evaluate in CACC, such as:
 ```python
-python evaluate_cacc.py --env 'slowdown' --algo 'DPPO' --device 'cuda:0'
+python evaluate_cacc.py --env 'slowdown' --algo 'DPPO'
 ```
 to evaluate in Flow, such as:
 ```python
-python evaluate_flow.py --env 'ring' --algo 'DPPO' --device 'cuda:0'
+python evaluate_flow.py --env 'ring' --algo 'DPPO'
 ```
 to evaluate in ATSC, such as:
 ```python
-python evaluate_atsc.py --env 'Monaco' --algo 'DPPO' --device 'cuda:0'
+python evaluate_atsc.py --env 'Monaco' --algo 'DPPO'
 ```
 to evaluate in Real Power-Net, such as:
 ```python
-python evaluate_real_power.py --env 'Real_Power' --algo 'DPPO' --device 'cuda:0'
+python evaluate_real_power.py --env 'Real_Power' --algo 'DPPO'
 ```
 to evaluate in Pandemic Net, such as:
 ```python
-python evaluate_pandemic.py --env 'Pandemic' --algo 'DPPO' --device 'cuda:0'
+python evaluate_pandemic.py --env 'Pandemic' --algo 'DPPO'
 ```
 to evaluate in Large_city (New York city), such as:
 ```python
-python evaluate_large_city.py --env 'Large_city' --algo 'DPPO' --device 'cuda:0'
+python evaluate_large_city.py --env 'Large_city' --algo 'DPPO'
 ```
 # Switch to different settings in the same environment
 1. For Power Grid, two settings are used, one with 20 agents and the other with 40 agents. You need to switch between different settings by opening the file:
